@@ -1,0 +1,14 @@
+
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/send-data.js", 
+        "use": "@vercel/node" 
+      }
+    ],
+    "routes": [
+       { "src": "/api/send-data", "dest": "/api/send-data.js" }
+    ]
+   
+  }
