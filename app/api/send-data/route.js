@@ -57,6 +57,7 @@ export async function POST(request) {
   `;
 
   console.log("Mensagem a ser enviada:", message);
+  
 
   try {
     console.log("Tentando enviar para o Telegram...");
